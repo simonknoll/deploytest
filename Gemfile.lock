@@ -19,6 +19,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  bundler
   httparty
   rake
   whenever

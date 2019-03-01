@@ -9,7 +9,10 @@ gem 'rake'
 gem 'httparty'
 gem 'awesome_print'
 gem 'whenever'
-gem 'capistrano'
-gem 'capistrano-rvm'
-gem 'capistrano-bundler'
 gem 'bundler'
+group :development do
+  gem 'capistrano', require: false
+  gem 'capistrano-rvm', require: false
+  gem 'capistrano-bundler', require: false
+end
+
